@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T14:31:29.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.7.4" etag="DMAsS7CpGRQ5gk18RUX5" type="github"><diagram id="JhvThQPpUbUqhT73DqLa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-15T15:15:31.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="qvj3HsKrZrtE6AW1ZN3Z" version="15.7.4" type="github">
+  <diagram id="JhvThQPpUbUqhT73DqLa" name="Page-1">
+    <mxGraphModel dx="946" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZE2uH7dII69MqUGUph_M-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZE2uH7dII69MqUGUph_M-1" target="ZE2uH7dII69MqUGUph_M-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-1" value="Pre-Defined Fault Trees" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZE2uH7dII69MqUGUph_M-3" target="ZE2uH7dII69MqUGUph_M-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZE2uH7dII69MqUGUph_M-3" target="ZE2uH7dII69MqUGUph_M-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-3" value="Parse Case Note Excel using NLP" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZE2uH7dII69MqUGUph_M-5" target="ZE2uH7dII69MqUGUph_M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-5" value="Case Note Excel -Name Entity Recognition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZE2uH7dII69MqUGUph_M-10" target="ZE2uH7dII69MqUGUph_M-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-10" value="Construct our own Fault Trees( Original FT + New FT from NLP-NER)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZE2uH7dII69MqUGUph_M-12" target="ZE2uH7dII69MqUGUph_M-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZE2uH7dII69MqUGUph_M-12" target="ZE2uH7dII69MqUGUph_M-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-12" value="Enter Fault Tree into GraphDB" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-14" value="Create UI for Tracking Repeat Dispatches&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-16" value="Create UI for Repeat Call" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE2uH7dII69MqUGUph_M-18" value="State of the Art Fault Trees from research&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
